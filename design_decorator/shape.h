@@ -16,7 +16,7 @@ public:
 	~Shape() {};
 
 	//´¿Ðéº¯Êý
-	virtual void draw() { std::cout << "I am a shape!" << std::endl; };
+	virtual void draw() = 0;
 };
 
 #endif // !_SHAPE_H_
