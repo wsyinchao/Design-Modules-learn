@@ -3,6 +3,8 @@
 
 /*
 	装饰者模式的抽象类... shape
+
+	被装饰的对象
 */
 
 #include <iostream>

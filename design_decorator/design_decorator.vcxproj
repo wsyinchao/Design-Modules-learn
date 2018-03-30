@@ -77,6 +77,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -116,10 +119,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="circle.h" />
+    <ClInclude Include="redShapeDecorator.h" />
     <ClInclude Include="shape.h" />
+    <ClInclude Include="shapeDecorator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="circle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="redShapeDecorator.cpp" />
+    <ClCompile Include="shapeDecorator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
