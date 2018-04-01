@@ -9,7 +9,6 @@ redShapeDecorator::redShapeDecorator(Shape* shape):
 {
 }
 
-
 redShapeDecorator::~redShapeDecorator()
 {
 }
